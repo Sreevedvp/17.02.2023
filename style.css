@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #bfdec8;
+  scroll-behavior: smooth;
+}
+
+.container {
+  background-color: #dfdcf5;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.container > div {
+  background-color: #bfdec8;
+}
+
+.title {
+  border-radius: 10px;
+}
+.title h1 {
+  padding: 50px;
+  text-align: center;
+  font-size: xx-large;
+  font-family: serif;
+}
+
+.container > div h1 {
+  padding: 150px 50px;
+  border: 5px solid;
+  border-radius: 10px;
+  background-color: lightblue;
+  height: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.boxmodelcontainer {
+  width: 15em;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.boxmodelcontainer h3 {
+  text-align: center;
+}
+
+.suboxmodelcontainer {
+  border: 5px solid;
+}
+.suboxmodelcontainer h3 {
+  text-align: center;
+  padding: 100px;
+}
+
+.selectorcontainer img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid;
+}
+.selectorcontainer :hover {
+  background-color: #85ffbc;
+}
+
+.selectorcontainer2 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid;
+}
+.selectorcontainer2 :hover {
+  background-color: #85ffbc;
+}
+.selectorcontainer2 h3 {
+  text-align: center;
+}
+
+.specificitycontainer {
+  border: 5px solid;
+}
+.specificitycontainer img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid;
+}
+.specificitycontainer :hover {
+  background-color: #85ffbc;
+}
+
+.title :hover {
+  background-color: #ff8595;
+}
+
+.displaycontainer {
+  border: 5px solid;
+}
+.displaycontainer img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid;
+}
+.displaycontainer :hover {
+  background-color: #85ffbc;
+}
+
+.positioningcontainer {
+  border: 5px solid;
+  padding: 20px;
+  margin: 20px;
+}
+.positioningcontainer > div p {
+  padding: 5px;
+}
+.positioningcontainer p:hover {
+  background-color: #85ffbc;
+}
+.positioningcontainer > div {
+  border: 5px solid;
+  margin: 10px;
+}
+.positioningcontainer .position1 {
+  position: static;
+  left: 80px;
+}
+.positioningcontainer .position2 {
+  position: relative;
+  left: 10%;
+  width: 70%;
+}
+.positioningcontainer .position3 {
+  position: absolute;
+  top: 270px;
+}
+.positioningcontainer .position4 {
+  position: fixed;
+  top: 300px;
+}
+
+.layoutcontainer {
+  border: 5px solid;
+  padding: 40px;
+  margin: 40px;
+}
+.layoutcontainer > div h1 {
+  border: 5px solid;
+  padding: 40px;
+  margin: 40px;
+  overflow: hidden;
+}
+.layoutcontainer > div h1:hover {
+  background-color: #85ffbc;
+}
+
+.flex-container {
+  border: 5px solid;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  background-color: lightblue;
+  justify-content: center;
+}
+.flex-container > div {
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  border: 5px solid;
+}
+.flex-container .fhover:hover {
+  background-color: #85ffbc;
+}
+.flex-container .fhover:hover p:hover {
+  background-color: #e6b4b1;
+}
+
+.flex-container2 {
+  border: 5px solid;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: lightblue;
+  justify-content: center;
+}
+.flex-container2 > div {
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  border: 5px solid;
+}
+.flex-container2 .fhover:hover {
+  background-color: #85ffbc;
+}
+.flex-container2 .fhover:hover p:hover {
+  background-color: #e6b4b1;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  margin: 30px;
+}
+
+.grid-item {
+  border: 5px solid;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  margin: 5px;
+}
+
+.animationcontainer {
+  border: 5px solid;
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  flex-direction: row;
+}
+.animationcontainer .animation1 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: trans1;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+.animationcontainer .txt {
+  position: relative;
+  right: 600px;
+}
+.animationcontainer .animation2 {
+  border-style: solid;
+  border-width: 1px;
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-color: #0000ff;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+.animationcontainer .animation2:hover {
+  background-color: #ffcccc;
+  width: 200px;
+  height: 200px;
+  rotate: 180deg;
+}/*# sourceMappingURL=style.css.map */

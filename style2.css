@@ -1,0 +1,60 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.title{
+    border: 5px solid black;
+    border-radius: 10px;
+}
+@media only screen and (max-width:1853px){
+    .container > div{
+        width:617.5px;
+        display:flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width:900px){
+    .container > div{
+        width:810.5px;
+        display:flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width:1842px){
+    .container > div{
+        width:511.8px;
+        display:flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+}
+@keyframes example{
+    from{background-color:#bfdec8}
+    to{background-color:beige}
+    }
+.container>div h1:hover{
+    animation-name:example;transition:width 2s;animation-duration:750ms;background-color:beige;
+}
+
+.boxmodelcontainer > h3:hover{
+   background-color: blue;
+}
+.boxmodelcontainer:hover{
+    background-color: aqua;
+}
+.subboxmodelcontainer h3{
+    text-align: center;
+}
+.grid-item:hover {
+    background-color: aqua;
+}
+
+@keyframes trans1 {
+    0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+  }
